@@ -10,7 +10,9 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 //子项目模块
+/*
 dependencies {
     compile project(':gradle-demo')
     compile project(':gradle-webapp-demo')
 }
+*/

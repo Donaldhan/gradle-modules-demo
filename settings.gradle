@@ -17,7 +17,8 @@ include 'services:webservice'
 */
 
 rootProject.name = 'gradle-modules-demo'
-
-include ':radle-demo', ':gradle-webapp-demo'
+/*
+include ':gradle-demo', ':gradle-webapp-demo'
 project(':gradle-demo').projectDir = new File(settingsDir, '../gradle-demo')
 project(':gradle-webapp-demo').projectDir = new File(settingsDir, '../gradle-webapp-demo')
+*/
