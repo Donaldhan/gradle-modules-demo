@@ -3,9 +3,14 @@
 [Gradle User Guide](http://wiki.jikexueyuan.com/project/GradleUserGuide-Wiki/)  
 [groovy offical](http://www.groovy-lang.org/)  
 [Groovy cn](https://www.w3cschool.cn/groovy)  
-[github bulidship](https://github.com/eclipse/buildship/blob/master/docs/user/Installation.md)
+[github bulidship](https://github.com/eclipse/buildship/blob/master/docs/user/Installation.md)  
 
-# 依赖项目
+# 引言
+* [依赖项目](#依赖项目)
+* [运行项目](#运行项目)
+* [附](#附)
+
+## 依赖项目
 此项目是为了测试Gradle的多模块管理特性，此项目依赖于以下两个模块：
 1. [gradle-demo](https://github.com/Donaldhan/gradle-demo)  
 2. [gradle-webapp-demo](https://github.com/Donaldhan/gradle-webapp-demo)
@@ -42,7 +47,7 @@ dependencies {
 }
 ```
 
-然后在## 运行web项目
+## 运行项目
 1. 在 Eclipse 菜单中 Window -> Show View -> Other... -> Gradle -> Gradle Tasks 打开 *Gradle任务*，
 右键单击 *build* 并选择 *Run Gradle Tasks* 执行任务。
 2. 在项目名称上点击右键，在弹出的菜单选项中选择 Run As -> Run Configurations... 在弹出的界面中选择 *New*，输入以下几个内容：
