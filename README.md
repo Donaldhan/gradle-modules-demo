@@ -78,7 +78,8 @@ The Server is running at http://localhost:8080/gradle-webapp-demo
 ```
 访问 http://localhost:8080/gradle-webapp-demo 即可。
 
-命令行进入本项目的跟目录，使用 *gradle tasks* 查看项目的任务，命令行输出：
+## 附
+命令行,进入本项目的跟目录，使用 *gradle tasks* 查看项目的任务，命令行输出：
 ```
 donald@donaldHP MINGW64 /f/github/gradle-modules-demo (master)
 $ gradle tasks
